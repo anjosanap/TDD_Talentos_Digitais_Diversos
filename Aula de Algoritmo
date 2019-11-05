@@ -1,0 +1,55 @@
+Verificar se a lâmpada precisa mesmo ser trocada
+Ir até o local onde a lâmpada está
+A lâmpada está acesa?
+   Se sim:
+    Então não precisará trocá-la
+   Se não:
+O local necessitará de escadas?
+   Se não
+       Ir até onde está o interruptor
+       Desligar no interruptor
+       Ir até o local em que a lâmpada queimada está
+       Gire a lâmpada no sentido anti- horário dando duas voltas
+       Remova a lâmpada
+       Vá até a lixeira
+       Descarte a lâmpada
+       Vá até a gaveta da cozinha
+       Procure por uma nova lâmpada
+       Pegue uma lâmpada nova
+       Vá até o local em que a lâmpada queimada estava
+       Coloque a lâmpada nova
+       Gire a lâmpada no sentido horário dando duas voltas
+       Vá até o interruptor
+       Alterne o interruptor
+       Pronto
+O local necessitará de escadas?
+Verificar novamente se a lâmpada está queimada
+A lâmpada está acesa?
+   Se sim
+       Não precisará trocar.
+   Se não:
+       Ir até onde está o interruptor
+       Desligar no interruptor
+       Caminhe até o local em que há uma escada
+       Pegue a escada
+       Leve a escada até o local em que a lâmpada queimada está
+       Posicione a escada abaixo da lâmpada
+       Suba os degrais suficientes para que consiga alcança a lâmpada
+       Gire a lâmpada no sentido anti-horário dando duas voltas
+       Desça os degrais suficientes até alcançar o solo
+       Vá até o lixo
+       Descarte a lâmpada queimada
+       Vá até a gaveta
+       Procure por uma lâmpada nova
+       Pegue uma lâmpada nova
+       Vá até a escada
+       Suba os degrais suficientes para que consiga alcança o local em que lâmpada estava
+       Gire a lâmpada no sentido horário dando duas voltas
+       Desça os degrais suficientes até alcançar o solo
+       Vá até o interruptor
+       Alterne o interruptor
+       A lâmpada acendeu?
+          Se sim:
+            Pronto, lâmpada trocada.
+          Se não:
+            Repita o processo.
