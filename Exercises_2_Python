@@ -1,5 +1,5 @@
 print('Números pares entre 0 e 1000')
-n = 0
-for n in range(0, 1001):
-    if n % 2 == 0:
-        print(n, end=' ')
+number = 0
+for number in range(0, 1001):
+    if number % 2 == 0:
+        print(number, end=' ')
