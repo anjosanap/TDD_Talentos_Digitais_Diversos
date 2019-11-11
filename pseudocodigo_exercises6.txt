@@ -1,0 +1,25 @@
+                                              Pseudocódigo: calculo_imc
+var
+	altura
+	peso
+	calculo_imc
+
+inicio calculo_imc
+	altura <- ("Digite sua altura: ")
+	peso <- ("Digite seu peso: ")
+
+	calculo_imc <- peso / altura ** 2
+
+		imprima ("Com altura de ", altura, " peso de ", peso, ", seu IMC é de ", imc")
+
+	se calculo_imc <18.5:
+		imprimir ("Você está abaixo do peso ideal")
+
+	se calculo_imc <=24.9:
+		imprimir (‘Parabéns você está no seu peso normal’)
+    
+	se calculo_imc <=30:
+		imprimir (‘Você está acima do seu peso’)
+    
+	se calculo_imc <30
+		imprimir (‘Você está obeso’)
