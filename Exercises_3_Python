@@ -11,7 +11,9 @@ print (media)
 
 if media > 7:
    print("Você está aprovado")
-  else if <7 media 5.5>:
-    print("Você está de recuperação!")
-else media < 5.5:
+
+elif 7 >= media >= 5.5:
+  print("Você está de recuperação!")
+
+else:
   print("Você foi reprovado!")
