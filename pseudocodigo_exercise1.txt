@@ -1,0 +1,15 @@
+                                                  Pseudocódigo: par_impar
+                                                  
+  var
+	numero_inteiro
+
+ inicio par_impar
+ 
+     imprima("Entre com um número: ")
+     	leia(numero_inteiro)
+
+	     se numero_inteiro == 2 /numero_inteiro = 0 então
+       	 imprima ("Número é par: ", numero_inteiro)
+
+  	   senão
+      	 imprima ("Número é ímpar: ", numero_inteiro)
