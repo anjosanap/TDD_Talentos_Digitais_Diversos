@@ -1,0 +1,24 @@
+						                                             Pseudocódigo: holerite
+var 
+	salario
+	salario_liquido
+	inss
+	vt
+	convenio
+ 
+ inicio "holerite"
+    salario <- ("Digite o valor do seu salário: R$ ")
+
+	inss <- salario * 3/10
+	vt <- salario * 3/100
+	convenio <- 347 * 15/100
+	
+	  salario_liquido <- salario - (3/10 + 9/10 + 15/100)
+
+imprima ('O seu salário com o desconto do inss seu salário fica em: R$', inss)
+
+imprima ('"O seu salário com o desconto do vale transporte fica em: R$', vt)
+
+imprima ('O seu salário com o desconto do convênio médico fica em: R$', convenio)
+
+imprima ('"Salário líquido: R$', salario_liquido)
