@@ -1,0 +1,57 @@
+var
+	digito_da_conta
+	senha_conta
+	valor_saque
+	extrato
+	saldo_atual
+
+const
+	digito_conta <- número existente
+	senha_conta <- senha correta
+	mensagem_digito_conta_incorreta_1 <- "NÚMERO INEXISTENTE! APÓS TRÊS TENTATIVAS INCORRETAS SUA CONTA SERÁ BLOQUEADA!
+	mensagem_digito_conta_incorreta_2 <- "NÚMERO INEXISTENTE! APÓS DUAS TENTATIVAS INCORRETAS SUA CONTA SERÁ BLOQUEADA!"
+	mensagem_digito_conta_incorreta_3 <- "NÚMERO INEXISTENTE! APÓS UMA TENTATIVA INCORRETA SUA CONTA SERÁ BLOQUEADA!"
+	mensagem_senha_incorreta_1 <- "SENHA INCORRETA! APÓS TRÊS TENTATIVAS INCORRETAS SUA CONTA SERÁ BLOQUEADA!"
+	mensagem_senha_incorreta_2 <- "SENHA INCORRETA! APÓS DUAS TENTATIVAS INCORRETAS SUA CONTA SERÁ BLOQUEADA!"
+	mensagem_senha_incorreta_3 <- "SENHA INCORRETA! APÓS UMA TENTATIVA INCORRETA SUA CONTA SERÁ BLOQUEADA!"
+	valor_saque <- 500
+	mensagem_saque_negado <- "Saldo insuficiente, valor máximo para saque = R$500,00"
+
+
+inicio saque_caixa_eletronico
+
+	digito_da_conta <- digitar ("Digite o número da conta")
+		se digito_da_conta == número existente faça
+		      senha_conta <- digitar ("Digite a senha da conta")
+		   	senão
+			     	imprimir (mensagem_digito_conta_incorreta_1)
+		  	senão
+		  	  	imprimir (mensagem_digito_conta_incorreta_2)
+			  senão
+			    	imprimir (mensagem_digito_conta_incorreta_3)
+
+		  se senha_conta == "senha correta" faça
+		        valor_saque <- ("Digite o valor do saque")
+            
+			senão
+				imprimir (mensagem_senha_incorreta_1)
+			senão
+				imprimir (mensagem_senha_incorreta_2)
+			senão
+				imprimir (mensagem_senha_incorreta_3)
+
+		    se valor_saque == <-500 faça
+			saque <- ("Saque realizado!")
+			saldo_atual <- ("Seu saldo atual é igual a R$ ")
+		    
+		    senão 
+			imprimir (mensagem_saque_negado)
+
+			extrato <- ("Deseja imprimir seu extrato? S/N")
+		    
+	    	   se extrato == "S" faça
+		        	extrato <- ("Extrato impresso")
+      
+		  senão 
+		      se extrato == "N" faça
+			    extrato <-("Pronto, operações finalizadas!")
