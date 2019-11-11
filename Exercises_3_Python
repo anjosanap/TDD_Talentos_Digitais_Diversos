@@ -6,12 +6,12 @@ nota3 = float(input('Nota 3: '))
 
 nota4 = float(input('Nota 4: '))
 
-média = (float(nota1) + float(nota2) + float(nota3) + float(nota4))/4
-print (média)
+media = (float(nota1) + float(nota2) + float(nota3) + float(nota4))/4
+print (media)
 
-if média > 7:
+if media > 7:
    print("Você está aprovado")
-  else média <7 e 5.5>:
+  else if <7 media 5.5>:
     print("Você está de recuperação!")
-if média < 5.5:
+else media < 5.5:
   print("Você foi reprovado!")
