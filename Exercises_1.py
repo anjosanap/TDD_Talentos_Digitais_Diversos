@@ -1,6 +1,6 @@
 ## enter a number and print weither it's odd or even
 
-number = int(input("Enter with a whole number: "))
+number = int(input("Enter a whole number: "))
 
 rest = number % 2
 
