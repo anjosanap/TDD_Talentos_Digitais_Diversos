@@ -1,7 +1,10 @@
-number = float(input('Digite um número para saber se é par ou impar:'))
+## enter a number and print weither it's odd or even
+
+number = int(input("Enter with a whole number: "))
+
 rest = number % 2
 
 if rest == 0:
-    print('Número é par')
+    print("Number is even!")
 else:
-    print('Número é impar')
+    print("Number is odd!")
