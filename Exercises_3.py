@@ -13,10 +13,10 @@ print ("Sua média foi", media)
 print(" ")
 
 if media > 7:
-   print("Você está aprovado")
+   print("Você foi aprovado! :)")
 
 elif 7 >= media >= 5.5:
-  print("Você está de recuperação!")
+  print("Você está de recuperação! :/")
 
 else:
-  print("Você foi reprovado!")
+  print("Você foi reprovado! :(")
