@@ -1,0 +1,19 @@
+lista_numeros = [10, 56, 85, 96, 5, 4, 6, 9, 86, 31, 8, 7, 0, 96]
+
+crescente = lista_numeros.sort()
+decrescente = lista_numeros.sort(reverse = True)
+
+print("Lista de números inteiros")
+print(" ")
+print(lista_numeros)
+print(" ")
+
+lista_ordem = input("Você deseja ver essa lista em ordem Crescente ou Decrescente? ")
+
+
+if lista_ordem == "Crescente":
+  print(crescente)
+
+elif lista_ordem == "Decrescente":
+    print(decrescente)
+  
