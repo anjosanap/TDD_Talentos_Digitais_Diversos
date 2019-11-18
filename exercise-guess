@@ -1,0 +1,30 @@
+print("Olá, amigo(a)! Vamos jogar um jogo de adivinhação?! :)")
+print(" ")
+nome_usuario = input("Qual seu nome? ")
+print(" ")
+print(nome_usuario,"preciso que pense em um número inteiro entre 0 e 100!")
+print(" ")
+print("Já pensou? Espero que sim!")
+print(" ")
+
+numero_escolhido = int(input("Escolha um número: "))
+
+max=100
+min=0
+middle=50
+
+guess=middle
+
+while True:
+  if guess != numero_escolhido:
+    print(guess)
+    guess_tip=input("Número é maior ou menor?")
+    if guess_tip == "menor":
+      max = guess
+      guess=int((min + guess) / 2)
+    else:
+      min = guess
+      guess=int((max + guess) / 2)
+  else:
+    print("Seu numero é:"," ",guess)
+    break
