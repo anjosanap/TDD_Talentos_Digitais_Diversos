@@ -9,22 +9,22 @@ print(" ")
 
 numero_escolhido = int(input("Escolha um número: "))
 
-max=100
-min=0
-middle=50
+max = 100
+min = 0
+middle = 50
 
-guess=middle
+guess = middle
 
 while True:
   if guess != numero_escolhido:
     print(guess)
-    guess_tip=input("Número é maior ou menor?")
+    guess_tip = input("Número é maior ou menor? ")
     if guess_tip == "menor":
       max = guess
-      guess=int((min + guess) / 2)
+      guess = int((min + guess) / 2)
     else:
       min = guess
-      guess=int((max + guess) / 2)
+      guess = int((max + guess) / 2)
   else:
-    print("Seu numero é:"," ",guess)
+    print("Seu numero é:", guess)
     break
