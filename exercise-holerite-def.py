@@ -24,5 +24,5 @@ print("O desconto do seu convênio é de: ", resultado_3)
 def salaryliquid(salary, salaryliquid):
     return salary - salaryliquid
 
-resultado_4 = salaryliquid(salario, (0.03 + 0.9 + 0.15))
+resultado_4 = salaryliquid(salario, (0.03 + 0.09 + 0.15))
 print("O valor do seu salário líquido é: ", resultado_4)
